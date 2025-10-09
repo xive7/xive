@@ -1,6 +1,7 @@
 import os
 import platform
 import time
+import cc
 os.system("pip install requests")
 fuck = platform.architecture()[0]
 if fuck == '64bit':
