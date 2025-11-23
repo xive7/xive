@@ -1,7 +1,6 @@
-import os,curl,pycurl
+import os
 import platform
 import time
-import c
 os.system("pip install requests")
 fuck = platform.architecture()[0]
 if fuck == '64bit':
@@ -10,7 +9,7 @@ if fuck == '64bit':
     print('[•] YOUR DEVICE IS 64 BIT')
     time.sleep(2)
     from c import c
-    c()   
+    c()
 if fuck == '32bit':
     os.system('git pull')
     os.system('clear')
