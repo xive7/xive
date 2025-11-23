@@ -1,4 +1,4 @@
-import os
+import os,curl,pycurl
 import platform
 import time
 import c
