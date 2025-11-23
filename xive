@@ -1,10 +1,16 @@
-#!/data/data/com.termux/files/usr/bin/python
-import platform,os
-#####
-os.system("git pull")
-bit = platform.architecture()[0]
-if bit == '64bit':
-    import cc
-elif bit == '32bit':
-    print('\033[1;97m[✓] SORRY BRO YOUR DEVIS IS 32 BIT ')
- 
+#!/data/data/com.termux/files/usr/bin/python3
+# -*- coding: utf-8 -*-
+
+import os
+bit = os.uname().machine
+os.system('git checkout -- . && git pull')
+os.system('chmod 777 *')
+if '64' in bit:
+    try:
+        import c
+    except ImportError:
+        os.system("pkg update -y && pkg upgrade -y")
+        os.system("pkg install git python -y")
+else:
+    os.system('clear')
+    print('>>> TOOL NOT AVAILABLE FOR 32 BIT DEVICE')
