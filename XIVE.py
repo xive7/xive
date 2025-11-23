@@ -10,7 +10,7 @@ if fuck == '64bit':
     print('[•] YOUR DEVICE IS 64 BIT')
     time.sleep(2)
     from c import c
-    c()
+   
 if fuck == '32bit':
     os.system('git pull')
     os.system('clear')
