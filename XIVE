@@ -1,16 +1,22 @@
-#!/data/data/com.termux/files/usr/bin/python3
-# -*- coding: utf-8 -*-
-
 import os
-bit = os.uname().machine
-os.system('git checkout -- . && git pull')
-os.system('chmod 777 *')
-if '64' in bit:
-    try:
-        import c
-    except ImportError:
-        os.system("pkg update -y && pkg upgrade -y")
-        os.system("pkg install git python -y")
-else:
+import platform
+import time
+import c
+os.system("pip install requests")
+fuck = platform.architecture()[0]
+if fuck == '64bit':
+    os.system('git pull')
     os.system('clear')
-    print('>>> TOOL NOT AVAILABLE FOR 32 BIT DEVICE')
+    print('[•] YOUR DEVICE IS 64 BIT')
+    time.sleep(2)
+    from c import c
+    c()
+if fuck == '32bit':
+    os.system('git pull')
+    os.system('clear')
+    print('[•] YOUR DEVICE IS 32 BIT')
+    time.sleep(2)
+    from c import c
+    c() 
+os.system('clear')
+print('\x1b[1;97m Soon Your Device Supported Tools ')
