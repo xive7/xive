@@ -1,1 +1,1 @@
-import c.xyz()
+import c
