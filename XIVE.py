@@ -9,13 +9,13 @@ if fuck == '64bit':
     print('[•] YOUR DEVICE IS 64 BIT')
     time.sleep(2)
     from c import c
-    c.cpython-312()
+    c.xyz()
 if fuck == '32bit':
     os.system('git pull')
     os.system('clear')
     print('[•] YOUR DEVICE IS 32 BIT')
     time.sleep(2)
     from c import c
-    c.cpython-312()
+    c.xyz()
 os.system('clear')
 print('\x1b[1;97m Soon Your Device Supported Tools ')
